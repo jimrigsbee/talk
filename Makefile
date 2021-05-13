@@ -17,5 +17,5 @@ clean:
 lint:
 	flake8 .
 
-build: clean
+build: clean lint
 	python3 setup.py sdist
